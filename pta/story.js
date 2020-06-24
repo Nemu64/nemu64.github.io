@@ -629,7 +629,7 @@ squiffy.story.start = '_default';
 squiffy.story.id = '1e3f553e06';
 squiffy.story.sections = {
 	'_default': {
-		'text': "<p>Welcome to Perfect Text Adventure!</p>\n<p>First things first. What is your name? (not yet implemented)</p>\n<p>Great. What is your gender?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Male\" role=\"link\" tabindex=\"0\">Male</a> or <a class=\"squiffy-link link-section\" data-section=\"Female\" role=\"link\" tabindex=\"0\">Female</a> </p>",
+		'text': "<p>Welcome to Perfect Text Adventure! (Alpha 1)</p>\n<p>First things first. What is your name? (not yet implemented)</p>\n<p>Great. What is your gender?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Male\" role=\"link\" tabindex=\"0\">Male</a> or <a class=\"squiffy-link link-section\" data-section=\"Female\" role=\"link\" tabindex=\"0\">Female</a> </p>",
 		'passages': {
 		},
 	},
@@ -638,8 +638,28 @@ squiffy.story.sections = {
 		'passages': {
 		},
 	},
+	'N': {
+		'text': "<p>Ok, I&#39;ll wait... So, are you ready?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Y\" role=\"link\" tabindex=\"0\">Y</a> </p>",
+		'passages': {
+		},
+	},
+	'Y': {
+		'text': "<p>My name is (player name will go here). I can wake up or die?</p>\n<p>What should I do?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Wake up\" role=\"link\" tabindex=\"0\">Wake up</a> /<a class=\"squiffy-link link-section\" data-section=\"Die\" role=\"link\" tabindex=\"0\">Die</a> </p>",
+		'passages': {
+		},
+	},
+	'Wake up': {
+		'text': "<p>I woke up. The end.</p>",
+		'passages': {
+		},
+	},
+	'Die': {
+		'text': "<p>I died. The end.</p>",
+		'passages': {
+		},
+	},
 	'Female': {
-		'text': "<p>Great. Just a moment please...</p>\n<p>This shouldn&#39;t take long...</p>\n<p>All done.</p>\n<p>This game is all about choice. Every choice you make will affect the past, present, and the future of the story and the characters in it. Choose wisely.</p>\n<p>Are you ready to begin?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Y\" role=\"link\" tabindex=\"0\">Y</a> /<a class=\"squiffy-link link-section\" data-section=\"N\" role=\"link\" tabindex=\"0\">N</a> </p>",
+		'text': "<p>Loading... This may take a moment or two... (except it won&#39;t cause it doesn&#39;t exist yet)</p>",
 		'passages': {
 		},
 	},
