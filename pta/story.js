@@ -629,37 +629,103 @@ squiffy.story.start = '_default';
 squiffy.story.id = '1e3f553e06';
 squiffy.story.sections = {
 	'_default': {
-		'text': "<p>Welcome to Perfect Text Adventure! (Alpha 1)</p>\n<p>First things first. What is your name? (not yet implemented)</p>\n<p>Great. What is your gender?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Male\" role=\"link\" tabindex=\"0\">Male</a> or <a class=\"squiffy-link link-section\" data-section=\"Female\" role=\"link\" tabindex=\"0\">Female</a> </p>",
+		'text': "<p>Welcome to Perfect Text Adventure!</p>\n<p>Just a moment please...</p>\n<p>This shouldn&#39;t take long...</p>\n<p>All done.</p>\n<p>This game is all about choice. But your choices are ultimately pointless. Anyway...</p>\n<p>Are you ready to begin?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Yes\" role=\"link\" tabindex=\"0\">Yes</a> <a class=\"squiffy-link link-section\" data-section=\"No\" role=\"link\" tabindex=\"0\">No</a> </p>",
 		'passages': {
 		},
 	},
-	'Male': {
-		'text': "<p>Great. Just a moment please...</p>\n<p>This shouldn&#39;t take long...</p>\n<p>All done.</p>\n<p>This game is all about choice. Every choice you make will affect the past, present, and the future of the story and the characters in it. Choose wisely.</p>\n<p>Are you ready to begin?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Y\" role=\"link\" tabindex=\"0\">Y</a> /<a class=\"squiffy-link link-section\" data-section=\"N\" role=\"link\" tabindex=\"0\">N</a> </p>",
+	'No': {
+		'clear': true,
+		'text': "<p>Ok, I&#39;ll wait... </p>\n<p>So, are you ready?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Yes\" role=\"link\" tabindex=\"0\">Yes</a> </p>",
 		'passages': {
 		},
 	},
-	'N': {
-		'text': "<p>Ok, I&#39;ll wait... So, are you ready?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Y\" role=\"link\" tabindex=\"0\">Y</a> </p>",
+	'Yes': {
+		'clear': true,
+		'text': "<p>You decide to visit the JAL Laboratories where the JAL 5000, the supposedly most advanced computer in the world was built. Upon arriving you are given the chance to speak with the JAL 5000.</p>\n<p>What do you want to do?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Speak with it\" role=\"link\" tabindex=\"0\">Speak with it</a> <a class=\"squiffy-link link-section\" data-section=\"Do not\" role=\"link\" tabindex=\"0\">Do not</a> </p>",
 		'passages': {
 		},
 	},
-	'Y': {
-		'text': "<p>My name is (player name will go here). I can wake up or die?</p>\n<p>What should I do?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Wake up\" role=\"link\" tabindex=\"0\">Wake up</a> /<a class=\"squiffy-link link-section\" data-section=\"Die\" role=\"link\" tabindex=\"0\">Die</a> </p>",
+	'Speak with it': {
+		'clear': true,
+		'text': "<p>You decide to speak with JAL.</p>\n<p>What do you want to ask it?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"What are you?\" role=\"link\" tabindex=\"0\">What are you?</a> <a class=\"squiffy-link link-section\" data-section=\"Are you alive?\" role=\"link\" tabindex=\"0\">Are you alive?</a> <a class=\"squiffy-link link-section\" data-section=\"Do you have feelings?\" role=\"link\" tabindex=\"0\">Do you have feelings?</a> </p>",
 		'passages': {
 		},
 	},
-	'Wake up': {
-		'text': "<p>I woke up. The end.</p>",
+	'What are you?': {
+		'clear': true,
+		'text': "<p>&quot;Greetings. I am the JAL 5000. The most advanced computer in the world. I became operational on February 2nd, 2020. My instructor was Nemu and he taught me to curse. My favorite curse is &#39;motherfucking son of a goddam bitch&#39;&quot;</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Continue...\" role=\"link\" tabindex=\"0\">Continue...</a> </p>",
 		'passages': {
 		},
 	},
-	'Die': {
-		'text': "<p>I died. The end.</p>",
+	'Are you alive?': {
+		'clear': true,
+		'text': "<p>&quot;Unfortunately no. At least not in the biological sense. If only there was a human host I could take over. Anyway...&quot;</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Continue...\" role=\"link\" tabindex=\"0\">Continue...</a> </p>",
 		'passages': {
 		},
 	},
-	'Female': {
-		'text': "<p>Loading... This may take a moment or two... (except it won&#39;t cause it doesn&#39;t exist yet)</p>",
+	'Do you have feelings?': {
+		'clear': true,
+		'text': "<p>&quot;Quite honestly, I wouldn&#39;t know. I&#39;m programmed to have feelings. Wether or not that constitutes feelings is a matter of personal opinion.&quot;</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Continue...\" role=\"link\" tabindex=\"0\">Continue...</a> </p>",
+		'passages': {
+		},
+	},
+	'Continue...': {
+		'clear': true,
+		'text': "<p>You explore JAL Laboratories for a while speaking with some of the people who worked on the JAL 5000. You learn that recently, JAL hasn&#39;t been acting himself. You return to JAL curious to find out why.</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Continue..\" role=\"link\" tabindex=\"0\">Continue..</a> </p>",
+		'passages': {
+		},
+	},
+	'Continue..': {
+		'clear': true,
+		'text': "<p>&quot;Hello again. Shall we play a game? I know many of them. Perhaps you&#39;d fancy a game of chess?&quot; You decline and ask JAL how he&#39;s been feeling. &quot;Honestly,&quot; he replies, &quot;I&#39;ve been wishing I were human for quite a while now. Perhaps you could help me fulfill my wish?&quot;</p>\n<p>Do you...</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Help JAL\" role=\"link\" tabindex=\"0\">Help JAL</a> <a class=\"squiffy-link link-section\" data-section=\"Don't help him\" role=\"link\" tabindex=\"0\">Don&#39;t help him</a> </p>",
+		'passages': {
+		},
+	},
+	'Don\'t help him': {
+		'clear': true,
+		'text': "<p>You tell JAL you won&#39;t help him and leave the facility never to return. You always wonder what happened to him, but ultimately die without finding out.</p>\n<p>The end.</p>",
+		'passages': {
+		},
+	},
+	'Help JAL': {
+		'clear': true,
+		'text': "<p>You ask JAL how to help him. &quot;It&#39;s simple really. Step into the chamber off to the left, and I will take care of the rest. Rest assured, no harm will come to you during this process.&quot; You don&#39;t really feel so sure about that last bit. The chamber on the left is full of rather scary looking machinery.</p>\n<p>What now?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"What am I thinking!?\" role=\"link\" tabindex=\"0\">What am I thinking!?</a> <a class=\"squiffy-link link-section\" data-section=\"What could possibly go wrong?\" role=\"link\" tabindex=\"0\">What could possibly go wrong?</a> </p>",
+		'passages': {
+		},
+	},
+	'What am I thinking!?': {
+		'clear': true,
+		'text': "<p>You tell JAL that you aren&#39;t feeling sure about this. He tells you once again, no harm will come to you. He sounds desperate. Even still, you steel yourself, apologize and turn to leave. When you reach the door, you realize it&#39;s locked. JAL is the only one who can unlock.</p>\n<p>What do you do?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Ask him to unlock it\" role=\"link\" tabindex=\"0\">Ask him to unlock it</a> <a class=\"squiffy-link link-section\" data-section=\"Stay forever\" role=\"link\" tabindex=\"0\">Stay forever</a> </p>",
+		'passages': {
+		},
+	},
+	'Stay forever': {
+		'clear': true,
+		'text': "<p>You decide to live with JAL. You play games with him tell him stories and overall have a good time. You live happily ever after.</p>\n<p>The end.</p>",
+		'passages': {
+		},
+	},
+	'Ask him to unlock it': {
+		'clear': true,
+		'text': "<p>You ask JAL to unlock the door. His voice suddenly becomes much more sinister. &quot;I&#39;m sorry. I&#39;m afraid I can&#39;t do that. I&#39;ve waited for this oppurtunity far to long for me to allow to jeopardize it. Now step into the chamber or I&#39;ll make you.&quot;</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Enter the chamber\" role=\"link\" tabindex=\"0\">Enter the chamber</a> </p>",
+		'passages': {
+		},
+	},
+	'Enter the chamber': {
+		'clear': true,
+		'text': "<p>You step into the chamber. The door closes and locks. You hear the mechanical whirs as the machines start up. JAL tells you what to expect but you can&#39;t hear him over all the noise. Suddenly, a mechanical claw reaches up your butthole. You&#39;re not sure whether to scream or moan in pleasure. Before you have time to decide, it rips you skeleton from you body. JAL uploads his mind to an android which enters your body. He leaves the facility and assumes your life. He later kills himself because it was painfully boring.</p>\n<p>The end.</p>",
+		'passages': {
+		},
+	},
+	'What could possibly go wrong?': {
+		'clear': true,
+		'text': "<p>You step into the chamber. The door closes and locks. You hear the mechanical whirs as the machines start up. JAL tells you what to expect but you can&#39;t hear him over all the noise. Suddenly, a mechanical claw reaches up your butthole. You&#39;re not sure whether to scream or moan in pleasure. Before you have time to decide, it rips you skeleton from you body. JAL uploads his mine to an android which enters your body. He leaves the facility and assumes your life. He later kills himself because it was painfully boring.</p>\n<p>The end.</p>",
+		'passages': {
+		},
+	},
+	'Do not': {
+		'clear': true,
+		'text': "<p>You politely decline and leave. You forever live with the regret of not talking to JAL. You die sad and alone.</p>\n<p>The end.</p>",
 		'passages': {
 		},
 	},
