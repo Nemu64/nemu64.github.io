@@ -9,7 +9,6 @@
 		<script src="story.js" charset="UTF-8"></script>
 		
 		<script>
-			setTimeout(
 			jQuery(function($){
 				$('#squiffy').squiffy();
 				var restart = function () {
@@ -20,7 +19,7 @@
 					if (e.which !== 13) return;
 					restart();
 				});
-			}), 3000);
+			});
 		</script>
 		<noscript>
 		<center><strong>You need Javascript to play!</strong></center>
