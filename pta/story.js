@@ -602,7 +602,7 @@ var squiffy = {};
             squiffy.set(attribute, value);
         },
         restart: function () {
-            if (!squiffy.ui.settings.restartPrompt || confirm('Really restart? You will lose all progress up to this point.')) {
+            if (!squiffy.ui.settings.restartPrompt || confirm('Are you sure you want to restart?')) {
                 squiffy.story.restart();
             }
         }
