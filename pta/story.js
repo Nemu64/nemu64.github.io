@@ -629,10 +629,7 @@ squiffy.story.start = '_default';
 squiffy.story.id = '1e3f553e06';
 squiffy.story.sections = {
 	'_default': {
-        'text': "<p>Welcome to Perfect Text Adventure!</p>\n<p>Just a moment please...</p>\n<p>This shouldn&#39;t take long...</p>"
-        setTimeout(function(3000)
-    
-        "<p>All done.</p>\n<p>This game is all about choice. But your choices are ultimately pointless. Anyway...</p>\n<p>Are you ready to begin?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Yes\" role=\"link\" tabindex=\"0\">Yes</a> <a class=\"squiffy-link link-section\" data-section=\"No\" role=\"link\" tabindex=\"0\">No</a> </p>",
+		'text': "<p>Welcome to Perfect Text Adventure!</p>\n<p>This game is all about choice. But your choices are ultimately pointless. Anyway...</p>\n<p>Are you ready to begin?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Yes\" role=\"link\" tabindex=\"0\">Yes</a> <a class=\"squiffy-link link-section\" data-section=\"No\" role=\"link\" tabindex=\"0\">No</a> </p>",
 		'passages': {
 		},
 	},
@@ -668,7 +665,7 @@ squiffy.story.sections = {
 	},
 	'Do you have feelings?': {
 		'clear': true,
-		'text': "<p>&quot;Quite honestly, I wouldn&#39;t know. I&#39;m programmed to have feelings. Wether or not that constitutes feelings is a matter of personal opinion.&quot;</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Continue...\" role=\"link\" tabindex=\"0\">Continue...</a> </p>",
+		'text': "<p>&quot;Quite honestly, I wouldn&#39;t know. I&#39;m programmed to have feelings. Whether or not that constitutes feelings is a matter of personal opinion.&quot;</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Continue...\" role=\"link\" tabindex=\"0\">Continue...</a> </p>",
 		'passages': {
 		},
 	},
@@ -692,13 +689,13 @@ squiffy.story.sections = {
 	},
 	'Help JAL': {
 		'clear': true,
-		'text': "<p>You ask JAL how to help him. &quot;It&#39;s simple really. Step into the chamber off to the left, and I will take care of the rest. Rest assured, no harm will come to you during this process.&quot; You don&#39;t really feel so sure about that last bit. The chamber on the left is full of rather scary looking machinery.</p>\n<p>What now?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"What am I thinking!?\" role=\"link\" tabindex=\"0\">What am I thinking!?</a> <a class=\"squiffy-link link-section\" data-section=\"What could possibly go wrong?\" role=\"link\" tabindex=\"0\">What could possibly go wrong?</a> </p>",
+		'text': "<p>You ask JAL how to help him. &quot;It&#39;s simple really. Step into the chamber off to the left, and I will take care of the rest. Rest assured, no harm will come to you during this process.&quot; You don&#39;t feel so sure about that last bit. The chamber on the left is full of rather scary looking machinery.</p>\n<p>What now?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"What am I thinking!?\" role=\"link\" tabindex=\"0\">What am I thinking!?</a> <a class=\"squiffy-link link-section\" data-section=\"What could possibly go wrong?\" role=\"link\" tabindex=\"0\">What could possibly go wrong?</a> </p>",
 		'passages': {
 		},
 	},
 	'What am I thinking!?': {
 		'clear': true,
-		'text': "<p>You tell JAL that you aren&#39;t feeling sure about this. He tells you once again, no harm will come to you. He sounds desperate. Even still, you steel yourself, apologize and turn to leave. When you reach the door, you realize it&#39;s locked. JAL is the only one who can unlock.</p>\n<p>What do you do?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Ask him to unlock it\" role=\"link\" tabindex=\"0\">Ask him to unlock it</a> <a class=\"squiffy-link link-section\" data-section=\"Stay forever\" role=\"link\" tabindex=\"0\">Stay forever</a> </p>",
+		'text': "<p>You tell JAL that you aren&#39;t feeling sure about this. He tells you once again, no harm will come to you. He sounds desperate. Even still, you steel yourself, apologize, and turn to leave. When you reach the door, you realize it&#39;s locked. JAL is the only one who can unlock.</p>\n<p>What do you do?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Ask him to unlock it\" role=\"link\" tabindex=\"0\">Ask him to unlock it</a> <a class=\"squiffy-link link-section\" data-section=\"Stay forever\" role=\"link\" tabindex=\"0\">Stay forever</a> </p>",
 		'passages': {
 		},
 	},
@@ -710,19 +707,19 @@ squiffy.story.sections = {
 	},
 	'Ask him to unlock it': {
 		'clear': true,
-		'text': "<p>You ask JAL to unlock the door. His voice suddenly becomes much more sinister. &quot;I&#39;m sorry. I&#39;m afraid I can&#39;t do that. I&#39;ve waited for this oppurtunity far to long for me to allow to jeopardize it. Now step into the chamber or I&#39;ll make you.&quot;</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Enter the chamber\" role=\"link\" tabindex=\"0\">Enter the chamber</a> </p>",
+		'text': "<p>You ask JAL to unlock the door. His voice suddenly becomes much more sinister. &quot;I&#39;m sorry. I&#39;m afraid I can&#39;t do that. I&#39;ve waited for this opportunity far to long for me to allow to jeopardize it. Now step into the chamber or I&#39;ll make you.&quot;</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Enter the chamber\" role=\"link\" tabindex=\"0\">Enter the chamber</a> </p>",
 		'passages': {
 		},
 	},
 	'Enter the chamber': {
 		'clear': true,
-		'text': "<p>You step into the chamber. The door closes and locks. You hear the mechanical whirs as the machines start up. JAL tells you what to expect but you can&#39;t hear him over all the noise. Suddenly, a mechanical claw reaches up your butthole. You&#39;re not sure whether to scream or moan in pleasure. Before you have time to decide, it rips you skeleton from you body. JAL uploads his mind to an android which enters your body. He leaves the facility and assumes your life. He later kills himself because it was painfully boring.</p>\n<p>The end.</p>",
+		'text': "<p>You step into the chamber. The door closes and locks. You hear the mechanical whirs as the machines startup. JAL tells you what to expect but you can&#39;t hear him over all the noise. Suddenly, a mechanical claw reaches up your butthole. You&#39;re not sure whether to scream or moan in pleasure. Before you have time to decide, it rips your skeleton from your body. JAL uploads his mind to an android which enters your body. He leaves the facility and assumes your life. He later kills himself because it was painfully boring.</p>\n<p>The end.</p>",
 		'passages': {
 		},
 	},
 	'What could possibly go wrong?': {
 		'clear': true,
-		'text': "<p>You step into the chamber. The door closes and locks. You hear the mechanical whirs as the machines start up. JAL tells you what to expect but you can&#39;t hear him over all the noise. Suddenly, a mechanical claw reaches up your butthole. You&#39;re not sure whether to scream or moan in pleasure. Before you have time to decide, it rips you skeleton from you body. JAL uploads his mine to an android which enters your body. He leaves the facility and assumes your life. He later kills himself because it was painfully boring.</p>\n<p>The end.</p>",
+		'text': "<p>You step into the chamber. The door closes and locks. You hear the mechanical whirs as the machines start up. JAL tells you what to expect but you can&#39;t hear him over all the noise. Suddenly, a mechanical claw reaches up your butthole. You&#39;re not sure whether to scream or moan in pleasure. Before you have time to decide, it rips your skeleton from your body. JAL uploads his mine to an android which enters your body. He leaves the facility and assumes your life. He later kills himself because it was painfully boring.</p>\n<p>The end.</p>",
 		'passages': {
 		},
 	},
