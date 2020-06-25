@@ -629,7 +629,10 @@ squiffy.story.start = '_default';
 squiffy.story.id = '1e3f553e06';
 squiffy.story.sections = {
 	'_default': {
-		'text': "<p>Welcome to Perfect Text Adventure!</p>\n<p>Just a moment please...</p>\n<p>This shouldn&#39;t take long...</p>\n<p>All done.</p>\n<p>This game is all about choice. But your choices are ultimately pointless. Anyway...</p>\n<p>Are you ready to begin?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Yes\" role=\"link\" tabindex=\"0\">Yes</a> <a class=\"squiffy-link link-section\" data-section=\"No\" role=\"link\" tabindex=\"0\">No</a> </p>",
+        'text': "<p>Welcome to Perfect Text Adventure!</p>\n<p>Just a moment please...</p>\n<p>This shouldn&#39;t take long...</p>"
+        setTimeout(function(3000)
+    
+        "<p>All done.</p>\n<p>This game is all about choice. But your choices are ultimately pointless. Anyway...</p>\n<p>Are you ready to begin?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Yes\" role=\"link\" tabindex=\"0\">Yes</a> <a class=\"squiffy-link link-section\" data-section=\"No\" role=\"link\" tabindex=\"0\">No</a> </p>",
 		'passages': {
 		},
 	},
