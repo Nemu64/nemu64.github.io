@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--What are you doing? Looking at the splashes? Quit being nosy and get out of here!-->
 <style>
 	@import url(http://fonts.googleapis.com/css?family=Verdana:400,700);
 
@@ -16,14 +17,23 @@
     </style>
 
     <body>
+      <script>
+          var quotes = ['Dancing with bears!', 'Reloading AK-47!', 'Imagining your smile!', 'Exploring the Nether!', 'Contemplating life!', 'Loading A LOT of data!', 'Rewriting history!'
+          , 'Squashing bugs!', 'Waiting on your slow internet connection!', 'Making a ruckus on <a href="https://www.ruqqus.com">ruqqus</a>!', 'Harvesting souls!',
+          'Wondering why I spent so much time on this!', 'Brewing coffee!', 'Parsing Javascript!', 'Mourning Flash Player!', 'Fakesigning certificates!', ];
+          var length = quotes.length;
+          var rand = Math.round(Math.random()*(length - 1));
+          var one = ["Please be patient..."];
+    </script>
+
         <title>Loading... Perfect Text Adventure</title>
-        <b>Loading, please wait...</b>
+        <b><script>document.write(quotes[rand]);</script></b>
         
-        <b><br>This won't take long...</br></b>
+        <b><br>Please be patient...</br></b>
     </body>
     <script>function redirect(){
-        window.location.replace("https://www.nemu64.org/pta/story");
+        window.location.replace("nemu64.org/pta/story");
       }
-      setTimeout(redirect, 3000);
+      setTimeout(redirect, 3500);
       </script>
       <!--This should give enough time to load shit-->
