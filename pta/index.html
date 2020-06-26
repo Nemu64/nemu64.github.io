@@ -1,61 +1,28 @@
 <!DOCTYPE html>
-<html>
-<!--Perfect Text Adventure (PTA) – Copyright © 2020 Perfect Technologies LLC – Do not distribute!-->
-	<head>
-		<title>Perfect Text Adventure</title>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script src="jquery.min.js"></script>
-		<script src="story.js" charset="UTF-8"></script>
-		<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-160620472-4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-160620472-4');
-</script>
-
-		<script>
-			jQuery(function($){
-				$('#squiffy').squiffy();
-				var restart = function () {
-					$('#squiffy').squiffy('restart');
-				};
-				$('#restart').click(restart);
-				$('#restart').keypress(function (e) {
-					if (e.which !== 13) return;
-					restart();
-				});
-			});
-		</script>
-		<link rel="stylesheet" href="style.css"/>
-	</head>
-	<body>
-		<div id="squiffy-container">
-			<div id="squiffy-header">
-				<a class="squiffy-header-link" id="restart" tabindex="0">Restart</a>
-			</div>
-			<div id="squiffy">
-			</div>
-		</div>
-	</body>
-	<footer><center>Perfect Text Adventure (PTA) – Copyright © 2020 Perfect Technologies LLC – Do not distribute!</center></footer>
-</html>
-
 <style>
 	@import url(http://fonts.googleapis.com/css?family=Verdana:400,700);
-body {
+
+	body {
 		font-family: 'Verdana', sans-serif;
 		color: rgb(255, 255, 255);
-		font-size: 14px;
-		background-color: black;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5em;
+        margin-bottom: auto;
+        font-size: 2em;
 	}
-	footer {
-		font-family: 'Verdana', sans-serif;
-		color: rgb(255, 255, 255);
-		font-size: 14px;
-		top: auto;
-		bottom: .01em;
-	}
-</style>
+    html {background-color: black}
+    </style>
+
+    <body>
+        <b>Loading, please wait...</b>
+        
+        <b><br>This won't take long...</br></b>
+    </body>
+    <script>function redirect(){
+        window.location.replace("https://www.nemu64.org/pta");
+      }
+      setTimeout(redirect, 3000);
+      </script>
+      <!--This should give enough time to load shit-->
