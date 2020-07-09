@@ -695,11 +695,11 @@ squiffy.story.sections = {
 	},
 	'What am I thinking!?': {
 		'clear': true,
-		'text': "<p>You tell JAL that you aren&#39;t feeling sure about this. He tells you once again, no harm will come to you. He sounds desperate. Even still, you steel yourself, apologize, and turn to leave. When you reach the door, you realize it&#39;s locked. JAL is the only one who can unlock.</p>\n<p>What do you do?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Ask him to unlock it\" role=\"link\" tabindex=\"0\">Ask him to unlock it</a> <a class=\"squiffy-link link-section\" data-section=\"Stay forever\" role=\"link\" tabindex=\"0\">Stay forever</a> </p>",
+		'text': "<p>You tell JAL that you aren&#39;t feeling sure about this. He tells you once again, no harm will come to you. He sounds desperate. Even still, you steel yourself, apologize, and turn to leave. When you reach the door, you realize it&#39;s locked. JAL is the only one who can unlock.</p>\n<p>What do you do?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Ask him to unlock it\" role=\"link\" tabindex=\"0\">Ask him to unlock it</a> <a class=\"squiffy-link link-section\" data-section=\"Stay a while. Stay forever!\" role=\"link\" tabindex=\"0\">Stay a while. Stay forever!</a> </p>",
 		'passages': {
 		},
 	},
-	'Stay forever': {
+	'Stay a while. Stay forever!': {
 		'clear': true,
 		'text': "<p>You decide to live with JAL. You play games with him tell him stories and overall have a good time. You live happily ever after.</p>\n<p>The end.</p>",
 		'passages': {
@@ -713,13 +713,13 @@ squiffy.story.sections = {
 	},
 	'Enter the chamber': {
 		'clear': true,
-		'text': "<p>You step into the chamber. The door closes and locks. You hear the mechanical whirs as the machines startup. JAL tells you what to expect but you can&#39;t hear him over all the noise. Suddenly, a mechanical claw reaches up your butthole. You&#39;re not sure whether to scream or moan in pleasure. Before you have time to decide, it rips your skeleton from your body. JAL uploads his mind to an android which enters your body. He leaves the facility and assumes your life. He later kills himself because it was painfully boring.</p>\n<p>The end.</p>",
+		'text': "<p>You step into the chamber. The door closes and locks. You hear the mechanical whirs as the machines startup. JAL tells you what to expect but you can&#39;t hear him over all the noise. Suddenly, a mechanical claw reaches up your butthole. You&#39;re not sure whether to scream or moan in pleasure. Before you have time to decide, it rips your skeleton from your body. JAL uploads his mind to an android which enters your body. He leaves the facility and assumes your life. He later kills himself because it was painfully boring.</p>\n<p>You&#39;re history!</p>",
 		'passages': {
 		},
 	},
 	'What could possibly go wrong?': {
 		'clear': true,
-		'text': "<p>You step into the chamber. The door closes and locks. You hear the mechanical whirs as the machines start up. JAL tells you what to expect but you can&#39;t hear him over all the noise. Suddenly, a mechanical claw reaches up your butthole. You&#39;re not sure whether to scream or moan in pleasure. Before you have time to decide, it rips your skeleton from your body. JAL uploads his mine to an android which enters your body. He leaves the facility and assumes your life. He later kills himself because it was painfully boring.</p>\n<p>The end.</p>",
+		'text': "<p>You step into the chamber. The door closes and locks. You hear the mechanical whirs as the machines start up. JAL tells you what to expect but you can&#39;t hear him over all the noise. Suddenly, a mechanical claw reaches up your butthole. You&#39;re not sure whether to scream or moan in pleasure. Before you have time to decide, it rips your skeleton from your body. JAL uploads his mine to an android which enters your body. He leaves the facility and assumes your life. He later kills himself because it was painfully boring.</p>\n<p>You&#39;re history!</p>",
 		'passages': {
 		},
 	},
