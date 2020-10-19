@@ -629,7 +629,7 @@ squiffy.story.start = '_default';
 squiffy.story.id = '1e3f553e06';
 squiffy.story.sections = {
 	'_default': {
-		'text': "<p>Welcome to Perfect Text Adventure!</p>\n<p>This game is all about choice. But your choices are ultimately pointless. Anyway...</p>\n<p>Are you ready to begin?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Yes\" role=\"link\" tabindex=\"0\">Yes</a> <a class=\"squiffy-link link-section\" data-section=\"No\" role=\"link\" tabindex=\"0\">No</a> </p>",
+		'text': "<p>Welcome to Perfect Text Adventure!</p>\n<p>This game is all about choice. But your choices are ultimately pointless. Anyway...</p>\n<p>Are you ready to begin?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Yes\" role=\"link\" tabindex=\"0\">Yes</a> | <a class=\"squiffy-link link-section\" data-section=\"No\" role=\"link\" tabindex=\"0\">No</a> </p>",
 		'passages': {
 		},
 	},
@@ -641,7 +641,7 @@ squiffy.story.sections = {
 	},
 	'Yes': {
 		'clear': true,
-		'text': "<p>You decide to visit the JAL Laboratories where the JAL 5000, the supposedly most advanced computer in the world was built. Upon arriving you are given the chance to speak with the JAL 5000.</p>\n<p>What do you want to do?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Speak with it\" role=\"link\" tabindex=\"0\">Speak with it</a> <a class=\"squiffy-link link-section\" data-section=\"Do not\" role=\"link\" tabindex=\"0\">Do not</a> </p>",
+		'text': "<p>You decide to visit the JAL Laboratories where the JAL 5000, the supposedly most advanced computer in the world was built. Upon arriving you are given the chance to speak with the JAL 5000.</p>\n<p>What do you want to do?</p>\n<p>(This choice will have consequences)</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Speak with it\" role=\"link\" tabindex=\"0\">Speak with it</a> | <a class=\"squiffy-link link-section\" data-section=\"Do not\" role=\"link\" tabindex=\"0\">Do not</a> </p>",
 		'passages': {
 		},
 	},
