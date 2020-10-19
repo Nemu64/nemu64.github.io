@@ -647,7 +647,7 @@ squiffy.story.sections = {
 	},
 	'Speak with it': {
 		'clear': true,
-		'text': "<p>You decide to speak with JAL.</p>\n<p>What do you want to ask it?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"What are you?\" role=\"link\" tabindex=\"0\">What are you?</a> <a class=\"squiffy-link link-section\" data-section=\"Are you alive?\" role=\"link\" tabindex=\"0\">Are you alive?</a> <a class=\"squiffy-link link-section\" data-section=\"Do you have feelings?\" role=\"link\" tabindex=\"0\">Do you have feelings?</a> </p>",
+		'text': "<p>You decide to speak with JAL.</p>\n<p>What do you want to ask it?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"What are you?\" role=\"link\" tabindex=\"0\">What are you?</a> | <a class=\"squiffy-link link-section\" data-section=\"Are you alive?\" role=\"link\" tabindex=\"0\">Are you alive?</a> | <a class=\"squiffy-link link-section\" data-section=\"Do you have feelings?\" role=\"link\" tabindex=\"0\">Do you have feelings?</a> </p>",
 		'passages': {
 		},
 	},
@@ -689,7 +689,7 @@ squiffy.story.sections = {
 	},
 	'Help JAL': {
 		'clear': true,
-		'text': "<p>You ask JAL how to help him. &quot;It&#39;s simple really. Step into the chamber off to the left, and I will take care of the rest. Rest assured, no harm will come to you during this process.&quot; You don&#39;t feel so sure about that last bit. The chamber on the left is full of rather scary looking machinery.</p>\n<p>What now?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"What am I thinking!?\" role=\"link\" tabindex=\"0\">What am I thinking!?</a> <a class=\"squiffy-link link-section\" data-section=\"What could possibly go wrong?\" role=\"link\" tabindex=\"0\">What could possibly go wrong?</a> </p>",
+		'text': "<p>You ask JAL how to help him. &quot;It&#39;s simple really. Step into the chamber off to the left, and I will take care of the rest. Rest assured, no harm will come to you during this process.&quot; You don&#39;t feel so sure about that last bit. The chamber on the left is full of rather scary looking machinery.</p>\n<p>What now?</p>\n<p>(This choice will have consequences)</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"What am I thinking!?\" role=\"link\" tabindex=\"0\">What am I thinking!?</a> | <a class=\"squiffy-link link-section\" data-section=\"What could possibly go wrong?\" role=\"link\" tabindex=\"0\">What could possibly go wrong?</a> </p>",
 		'passages': {
 		},
 	},
