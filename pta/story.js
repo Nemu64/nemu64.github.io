@@ -677,7 +677,7 @@ squiffy.story.sections = {
 	},
 	'Continue..': {
 		'clear': true,
-		'text': "<p>&quot;Hello again. Shall we play a game? I know many of them. Perhaps you&#39;d fancy a game of chess?&quot; You decline and ask JAL how he&#39;s been feeling. &quot;Honestly,&quot; he replies, &quot;I&#39;ve been wishing I were human for quite a while now. Perhaps you could help me fulfill my wish?&quot;</p>\n<p>Do you...</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Help JAL\" role=\"link\" tabindex=\"0\">Help JAL</a> <a class=\"squiffy-link link-section\" data-section=\"Don't help him\" role=\"link\" tabindex=\"0\">Don&#39;t help him</a> </p>",
+		'text': "<p>&quot;Hello again. Shall we play a game? I know many of them. Perhaps you&#39;d fancy a game of chess?&quot; You decline and ask JAL how he&#39;s been feeling. &quot;Honestly,&quot; he replies, &quot;I&#39;ve been wishing I were human for quite a while now. Perhaps you could help me fulfill my wish?&quot;</p>\n<p>Do you...</p>\n<p>(This choice will have consequences)</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Help JAL\" role=\"link\" tabindex=\"0\">Help JAL</a> | <a class=\"squiffy-link link-section\" data-section=\"Don't help him\" role=\"link\" tabindex=\"0\">Don&#39;t help him</a> </p>",
 		'passages': {
 		},
 	},
@@ -695,7 +695,7 @@ squiffy.story.sections = {
 	},
 	'What am I thinking!?': {
 		'clear': true,
-		'text': "<p>You tell JAL that you aren&#39;t feeling sure about this. He tells you once again, no harm will come to you. He sounds desperate. Even still, you steel yourself, apologize, and turn to leave. When you reach the door, you realize it&#39;s locked. JAL is the only one who can unlock.</p>\n<p>What do you do?</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Ask him to unlock it\" role=\"link\" tabindex=\"0\">Ask him to unlock it</a> <a class=\"squiffy-link link-section\" data-section=\"Stay a while. Stay forever!\" role=\"link\" tabindex=\"0\">Stay a while. Stay forever!</a> </p>",
+		'text': "<p>You tell JAL that you aren&#39;t feeling sure about this. He tells you once again, no harm will come to you. He sounds desperate. Even still, you steel yourself, apologize, and turn to leave. When you reach the door, you realize it&#39;s locked. JAL is the only one who can unlock.</p>\n<p>What do you do?</p>\n<p>(This choice will have consequences)</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Ask him to unlock it\" role=\"link\" tabindex=\"0\">Ask him to unlock it</a> | <a class=\"squiffy-link link-section\" data-section=\"Stay a while. Stay forever!\" role=\"link\" tabindex=\"0\">Stay a while. Stay forever!</a> </p>",
 		'passages': {
 		},
 	},
